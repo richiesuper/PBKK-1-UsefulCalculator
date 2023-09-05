@@ -222,6 +222,10 @@ namespace UsefulCalculator
                 this.hasGotResultFromEqualButton = false;
             }
 
+            if (textBox1.Text.Equals("0"))
+            {
+                textBox1.Text = "";
+            }
             textBox1.Text += button1.Text;
             this.hasUsedEqualsButton = false;
         }
@@ -239,6 +243,10 @@ namespace UsefulCalculator
                 this.hasGotResultFromEqualButton = false;
             }
 
+            if (textBox1.Text.Equals("0"))
+            {
+                textBox1.Text = "";
+            }
             textBox1.Text += button2.Text;
             this.hasUsedEqualsButton = false;
         }
@@ -256,6 +264,10 @@ namespace UsefulCalculator
                 this.hasGotResultFromEqualButton = false;
             }
 
+            if (textBox1.Text.Equals("0"))
+            {
+                textBox1.Text = "";
+            }
             textBox1.Text += button3.Text;
             this.hasUsedEqualsButton = false;
         }
@@ -273,6 +285,10 @@ namespace UsefulCalculator
                 this.hasGotResultFromEqualButton = false;
             }
 
+            if (textBox1.Text.Equals("0"))
+            {
+                textBox1.Text = "";
+            }
             textBox1.Text += button4.Text;
             this.hasUsedEqualsButton = false;
         }
@@ -290,6 +306,10 @@ namespace UsefulCalculator
                 this.hasGotResultFromEqualButton = false;
             }
 
+            if (textBox1.Text.Equals("0"))
+            {
+                textBox1.Text = "";
+            }
             textBox1.Text += button5.Text;
             this.hasUsedEqualsButton = false;
         }
@@ -307,6 +327,10 @@ namespace UsefulCalculator
                 this.hasGotResultFromEqualButton = false;
             }
 
+            if (textBox1.Text.Equals("0"))
+            {
+                textBox1.Text = "";
+            }
             textBox1.Text += button6.Text;
             this.hasUsedEqualsButton = false;
         }
@@ -324,6 +348,10 @@ namespace UsefulCalculator
                 this.hasGotResultFromEqualButton = false;
             }
 
+            if (textBox1.Text.Equals("0"))
+            {
+                textBox1.Text = "";
+            }
             textBox1.Text += button7.Text;
             this.hasUsedEqualsButton = false;
         }
@@ -341,6 +369,10 @@ namespace UsefulCalculator
                 this.hasGotResultFromEqualButton = false;
             }
 
+            if (textBox1.Text.Equals("0"))
+            {
+                textBox1.Text = "";
+            }
             textBox1.Text += button8.Text;
             this.hasUsedEqualsButton = false;
         }
@@ -357,6 +389,10 @@ namespace UsefulCalculator
                 this.hasGotResultFromEqualButton = false;
             }
 
+            if (textBox1.Text.Equals("0"))
+            {
+                textBox1.Text = "";
+            }
             textBox1.Text += button9.Text;
             this.hasUsedEqualsButton = false;
         }
@@ -394,7 +430,7 @@ namespace UsefulCalculator
                 this.hasGotResultFromEqualButton = false;
             }
 
-            if (!textBox1.Text.Equals(""))
+            if ((!textBox1.Text.Equals("") && !textBox1.Text.Equals("0")) || textBox1.Text.Contains("."))
             {
                 textBox1.Text += button11.Text;
             }
